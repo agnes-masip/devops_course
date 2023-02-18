@@ -98,7 +98,7 @@ components:
       type: object
       properties:
         student_id:
-          type: number
+          type: integer
         first_name:
           type: string
         last_name:
