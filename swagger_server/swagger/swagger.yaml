@@ -57,6 +57,10 @@ paths:
       responses:
         "200":
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Student'
         "400":
           description: Bad request. Student ID must be an integer and larger than
             0.
