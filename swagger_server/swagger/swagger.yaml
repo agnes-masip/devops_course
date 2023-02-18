@@ -112,6 +112,10 @@ components:
         last_name: last_name
         first_name: first_name
         gradeRecords:
+          - grade: 7.2
+            subject_name: maths
+          - grade: 2.3
+            subject_name: catalan
 
 
     GradeRecord:
